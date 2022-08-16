@@ -1,0 +1,35 @@
+.head{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+label{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 22px;
+}
+span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+input{
+    border: #3dd9c4 solid;
+}
+.mybuttons{
+    border-radius: 100%;
+    border: none;
+    height: 30px;
+    width: 80px;
+    background-color:#3dd9c4 ;
+    color: white;
+    font-size: 22px;
+    font-family: 'Just Another Hand', cursive; 
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main>*{
+    margin: 2%;
+}

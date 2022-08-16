@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Josefin+Sans&family=Just+Another+Hand&family=Pacifico&family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Timer</title>
+</head>
+<body>
+    <div class="head" id="head">Set Timer</div>
+    <div class="main" id="inp">
+        <input type="number" name="" id="inputTime">
+        
+    </div>
+    <div class="main" id="radio">
+        <label for="">Hours</label>
+        <input type="radio" name="timer" id="hours">
+        <label for="">Minutes</label>
+        <input type="radio" name="timer" id="minutes">
+        <label for="">Seconds</label>
+        <input type="radio" name="timer" id="seconds">
+    </div>
+    <div class="main" id="timee" style="display: none;">
+        <span id="hrs">hrs:</span>
+        <span id="min">min:</span>
+        <span id="sec">sec</span><br><br>
+        
+    </div>
+    <div class="main">
+        <button class="myButtons" id="button1">start</button>
+        <button class="myButtons" id="button2" style="display: none;">pause</button>
+        <button class="myButtons" id="button4" style="display: none;">continue</button>
+        <button class="myButtons" id="button3" style="display: none;">stop</button>
+        <button class="myButtons" id="button5" style="display: none;">set timer</button>
+        
+    </div>
+    <script src="assets/main.js"></script>
+</body>
+</html>
